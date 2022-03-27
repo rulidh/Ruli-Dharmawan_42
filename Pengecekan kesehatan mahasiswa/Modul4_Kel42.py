@@ -35,7 +35,7 @@ for i in range(banyak_orang):
     orang.pengecekan()
     kondisi= Kondisi(float(input("Dari formulir, berat badan kamu: ")), float(input("Tinggi badan kamu: ")))
     print("BMI kamu", kondisi.bmi())
-    print("---------------------------------------------------------")
+    print("----------------------------------------------------------")
     bmi=0.0
     bmi+= kondisi.hasil_bmi()
     if bmi>= 18.5 and bmi<= 24.9:

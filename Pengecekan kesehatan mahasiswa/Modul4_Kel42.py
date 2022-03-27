@@ -7,25 +7,7 @@ class Mahasiswa():
     def pengecekan(self):
         print("Hi,", self.nama, "dari", self.jurusan, "mari lakukan pengecekan kesehatan")
  
-class Kondisi():
-    def __init__(self, berat, tinggi):
-        self.berat= berat
-        self.tinggi= tinggi
- 
-    def bmi(self):
-        self.bmi= self.berat / (self.tinggi * self.tinggi)
-        if self.bmi< 18.5:
-            print("BMI menyatakan kamu kekurangan berat badan")
-        elif self.bmi>= 18.5 and self.bmi<= 24.9:
-            print("BMI menyatakan kamu normal")
-        elif self.bmi>= 25.0 and self.bmi<= 29.9:
-            print("BMI menyatakan kamu kelebihan berat badan")
-        else:
-            print("BMI menyatakan kamu obesitas")
-        return self.bmi
- 
-    def hasil_bmi(self):
-        return self.bmi
+
  
 jumlah_normal= 0
 banyak_orang= int(input("Berapa formulir mahasiswa yang ada di lab: "))
